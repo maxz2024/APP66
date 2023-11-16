@@ -1,0 +1,19 @@
+<div class="add-banner">
+    <div class="container">
+        <div class="banners owl-carousel owl-theme" style="opacity: 1; display: block;">
+            <% banners.forEach(function(banner) { %>
+                <div class="banner">
+                    <a class="link banner" href="<%= banner.link %>">
+                        <img src="<%= banner.imgUrl %>" alt="баннер">
+                    </a>
+                    
+                </div>
+            <% }) %>
+        </div>
+    </div>
+    <div class="banner-tg">
+        <a href="https://t.me/strmobileekb">
+            <img src="https://str-mobile.ru/image/catalog/01 зимний банер/teleg.png" style="width: 302px;" alt="">
+        </a>
+    </div>
+</div>

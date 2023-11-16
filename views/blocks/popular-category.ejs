@@ -1,0 +1,19 @@
+<div class="popular-cat">
+    <h3>Популярные категории</h3> 
+    <%  const chunkSize = 4;
+        for (let i = 0; i < popularCategories.length; i += chunkSize) {
+            const categories = popularCategories.slice(i, i + chunkSize); %>
+            <div class="container">
+                <% categories.forEach(function(category) { %>
+                    <div class="block-category">
+                        <a href="c<%= category.id %>">
+                            <div class="image">
+                                <img src="<%= category.imgUrl %>" alt="категория <%= category.id %>"> 
+                            </div>
+                            <div class="name"><%= category.name.toUpperCase() %></div>
+                        </a>
+                    </div>
+                <% }) %> 
+            </div>
+        <% } %>
+</div>

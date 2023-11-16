@@ -1,0 +1,9 @@
+<div class="path-site">
+    <a href="/">
+        <img class="icon-home" src="img/svg/home.svg" alt="">
+    </a>
+    <% pathes.forEach(function(path) { %>
+        <span> / </span>
+        <a href="<%= path.link %>"><%= path.name %></a>
+    <% }) %> 
+</div>

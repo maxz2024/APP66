@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Каталог</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="img/site-transformed.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <%- include('blocks/header.ejs') -%>
+        <div class="main-container">
+            <%- include('blocks/main-header.ejs') -%>
+            <%- include('blocks/path-site.ejs') -%>
+            
+            <h3>Каталог</h3>
+            <div class="catalog">
+                <%  const chunkSize = 4;
+                    for (let i = 0; i < listCategories.length; i += chunkSize) {
+                        const categories = listCategories.slice(i, i + chunkSize); %>
+                        <div class="container">
+                            <% categories.forEach(function(category) { %>
+                                <div class="block-category">
+                                    <a href="c<%= category.id %>">
+                                        <div class="image">
+                                            <img src="<%= category.imgUrl %>" alt="категория <%= category.id %>"> 
+                                        </div>
+                                        <div class="name"><%= category.name %></div>
+                                    </a>
+                                </div>
+                            <% }) %> 
+                        </div>
+                    <% } %>
+            </div>
+        </div>
+    </body>
+</html>

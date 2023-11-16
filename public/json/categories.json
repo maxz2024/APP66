@@ -1,0 +1,31 @@
+{
+    "/00388" :{
+        "imgUrl":"https://str-mobile.ru/image/cache/catalog/%2008%20ИЮНЯ/Opera%20Снимок_2023-03-19_171649_yandex.ru-280x200.png",
+        "id": "00388",
+        "name": "Запчасти для телефонов",
+        "products": [
+            "/126102"
+            
+        ]
+    },
+    "/20019830": {
+        "imgUrl":"https://str-mobile.ru/image/cache/catalog/%2008%20ИЮНЯ/p100525-2000x2000-280x200.jpg",
+        "id": "20019830",
+        "name": "Запчасти для ноутбуков"
+    },
+    "/00600": {
+        "imgUrl": "https://str-mobile.ru/image/cache/catalog/%2008%20ИЮНЯ/S-IP5G-2189-280x200.jpg",
+        "id": "00600",
+        "name":"Оборудование и расходники для ремонта"
+    },
+    "/00346": {
+        "imgUrl": "https://str-mobile.ru/image/cache/catalog/%2008%20ИЮНЯ/trddfe5dr4ddc9npldffwikjm8ihyuev-280x200.jpg",
+        "id": "00346",
+        "name": "Remax защитные стекла и другие"
+    },
+    "/00264": {
+        "imgUrl": "https://str-mobile.ru/image/cache/catalog/%2008%20%D0%98%D0%AE%D0%9D%D0%AF/20106009-280x200.jpg",
+        "id": "00264",
+        "name": "Чехлы для телефонов"
+    }
+}

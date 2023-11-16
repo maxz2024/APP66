@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+
+img {
+    pointer-events: none
+}
+
+button {
+    cursor: pointer;
+}
+
+.main-header a,
+.main-container a{
+    color:#000000;
+    text-decoration: none;
+    padding: 5px;
+}
+.wrapper {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-head {
+    box-sizing: border-box;
+    display: flex;
+    background-color: #272727;
+    width: 100%;
+    height: 37px;
+    justify-content: center;
+}
+
+.buttons-head .container {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-head .container .link{
+    color: #ffff;
+    font-size: 14px;
+}
+
+.main-header {
+    width: 90%;
+    height: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-1 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block-1 .catalog {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 1px red solid;
+    border-radius: 5px;
+    width: 107px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.main-header .link-image-site {
+    margin-right: 20px;
+}
+.main-header .icon-site {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+}
+
+.main-header .buttons {
+    width: 503px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-header .buttons .button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.main-header .icon {
+    width: 50px;
+    height: 30px;
+}
+
+.main-header .search {
+    box-sizing: border-box;
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-header .search .input-search {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 600px;
+}
+
+.main-header .search .container {
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .search .button-search .icon-search{
+    width: 12px;
+    height: 12px;    
+}
+
+.main-header .search .button-search {
+    border: none;
+    background: none;
+}
+
+.add-banner {
+    display: flex;
+}
+
+.add-banner .container{
+    width: 900px;
+}
+
+.add-banner .container .banner img {
+    border-radius: 25px;
+}
+.add-banner .banner-tg {
+    padding-left: 30px;
+}
+.main-container {
+    padding-left: 146px;
+    padding-right: 146px;
+}
+
+
+.popular-cat .container,
+.catalog .container {
+    display: flex;
+    margin-bottom: 10px;
+} 
+
+.popular-cat .container .block-category,
+.catalog .container .block-category {
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px;
+    margin: 0 0 20px;
+    width: 301px;
+    height: 343px;
+    -webkit-box-shadow: 4px 4px 29px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 29px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 29px 0px rgba(34, 60, 80, 0.2);
+    margin-left: 11px;
+    margin-right: 15px;
+}
+
+.popular-cat .container .block-category .image img,
+.catalog .container .block-category .image img{
+    padding-top: 20px;
+    width: 280px;
+    height: 220px;
+}
+
+.popular-cat a,
+.catalog a{
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.popular-cat .container .block-category .name,
+.catalog .container .block-category .name {
+    padding-top: 20px;
+}
+
+.main-container .path-site .icon-home {
+    width: 15px;
+}
+
+
+.category .block-product {
+    background-color: #ffff;
+    justify-content: center;
+    padding: 20px 0 10px;
+    margin: 0 0 20px;
+    width: 302px;
+    -webkit-box-shadow: 4px 4px 29px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 29px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 29px 0px rgba(34, 60, 80, 0.2);
+    margin-left: 11px;
+    margin-right: 15px;
+}
+
+.category .block-product .image  img{
+    width: 302px;
+}
+
+.category .block-product .caption {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.category .block-product .caption a:hover{
+    color:red;
+}
+
+.category .icon {
+    width: 50px;
+    height: 30px;
+}
+
+.category .buy {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 1px red solid;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
